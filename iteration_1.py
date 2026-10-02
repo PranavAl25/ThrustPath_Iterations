@@ -3,7 +3,7 @@ import math
 
 thrust_force = float(input("Enter the rocket's thrust force (N): "))
 time_thrust = float(input("How long does does the rocket fire? (seconds): "))
-rocket_mass = float(input("Enter the weight of the rocket (kg): "))
+rocket_mass = float(input("Enter the rocket's mass (kg): "))
 
 #Powered Flight
 accel_thrust = (thrust_force/rocket_mass) - constants.g
